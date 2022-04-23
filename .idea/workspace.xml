@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="Initial Commit Project">
-      <change afterPath="$PROJECT_DIR$/src/main/TwoNumberSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
