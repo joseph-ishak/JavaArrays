@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="updated Validate Sequence Code/Test">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,39 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SortedSquareArrayTest.TestCase1">
-    <configuration name="SolutionTest.DoctorTotalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SolutionTest" />
-      <option name="METHOD_NAME" value="DoctorTotalTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.DoctorTotalTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SolutionTest" />
-      <option name="METHOD_NAME" value="DoctorTotalTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TournyWinnerTest">
     <configuration name="SortedSquareArrayTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
@@ -89,6 +58,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.SortedSquareArrayTest" />
+      <option name="METHOD_NAME" value="TestCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TournyWinnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TournyWinnerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TournyWinnerTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TournyWinnerTest" />
       <option name="METHOD_NAME" value="TestCase1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TournyWinnerTest" />
+        <item itemvalue="JUnit.TournyWinnerTest.TestCase1" />
         <item itemvalue="JUnit.SortedSquareArrayTest.TestCase1" />
         <item itemvalue="JUnit.ValidateSubsequenceTest.testValidateSubsequence2" />
         <item itemvalue="JUnit.ValidateSubsequenceTest.testValidateSubsequence" />
-        <item itemvalue="JUnit.SolutionTest.DoctorTotalTest2" />
-        <item itemvalue="JUnit.SolutionTest.DoctorTotalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,5 +193,16 @@
     <MESSAGE value="ADded Validate Sequence Code/Test" />
     <MESSAGE value="updated Validate Sequence Code/Test" />
     <option name="LAST_COMMIT_MESSAGE" value="updated Validate Sequence Code/Test" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/TournyWinner.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
