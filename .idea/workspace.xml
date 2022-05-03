@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="updated Validate Sequence Code/Test">
-      <change afterPath="$PROJECT_DIR$/src/main/ThreeNumberSum.java" afterDir="false" />
+    <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="Added SmallesttDiff Algo">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/TournyWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TournyWinner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +52,8 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ThreeNumberSumTest.TestCase1">
-    <configuration name="SortedSquareArrayTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoveElementToEndTest.TestCase1">
+    <configuration name="MoveElementToEndTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -63,9 +62,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SortedSquareArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="test.MoveElementToEndTest" />
       <option name="METHOD_NAME" value="TestCase1" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmallestDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.SmallestDifferenceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,29 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TournyWinnerTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TournyWinnerTest" />
-      <option name="METHOD_NAME" value="TestCase1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoveElementToEndTest.TestCase1" />
+        <item itemvalue="JUnit.SmallestDifferenceTest" />
         <item itemvalue="JUnit.ThreeNumberSumTest.TestCase1" />
         <item itemvalue="JUnit.ThreeNumberSumTest" />
         <item itemvalue="JUnit.TournyWinnerTest" />
-        <item itemvalue="JUnit.TournyWinnerTest.TestCase1" />
-        <item itemvalue="JUnit.SortedSquareArrayTest.TestCase1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +177,28 @@
       <option name="project" value="LOCAL" />
       <updated>1650896548595</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added three Number Sum Algo">
+      <created>1651541973672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651541973672</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added three Number Sum Algo">
+      <created>1651541984582</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651541984582</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added SmallesttDiff Algo">
+      <created>1651542394147</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651542394147</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +216,9 @@
     <MESSAGE value="Initial Commit Project" />
     <MESSAGE value="ADded Validate Sequence Code/Test" />
     <MESSAGE value="updated Validate Sequence Code/Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated Validate Sequence Code/Test" />
+    <MESSAGE value="Added three Number Sum Algo" />
+    <MESSAGE value="Added SmallesttDiff Algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SmallesttDiff Algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
