@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="updated Validate Sequence Code/Test">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/ThreeNumberSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/TournyWinner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/TournyWinner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +48,12 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TournyWinnerTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ThreeNumberSumTest.TestCase1">
     <configuration name="SortedSquareArrayTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
@@ -58,6 +64,37 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.SortedSquareArrayTest" />
+      <option name="METHOD_NAME" value="TestCase1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeNumberSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ThreeNumberSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreeNumberSumTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ThreeNumberSumTest" />
       <option name="METHOD_NAME" value="TestCase1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -95,45 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidateSubsequenceTest.testValidateSubsequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ValidateSubsequenceTest" />
-      <option name="METHOD_NAME" value="testValidateSubsequence" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidateSubsequenceTest.testValidateSubsequence2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ValidateSubsequenceTest" />
-      <option name="METHOD_NAME" value="testValidateSubsequence2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreeNumberSumTest.TestCase1" />
+        <item itemvalue="JUnit.ThreeNumberSumTest" />
         <item itemvalue="JUnit.TournyWinnerTest" />
         <item itemvalue="JUnit.TournyWinnerTest.TestCase1" />
         <item itemvalue="JUnit.SortedSquareArrayTest.TestCase1" />
-        <item itemvalue="JUnit.ValidateSubsequenceTest.testValidateSubsequence2" />
-        <item itemvalue="JUnit.ValidateSubsequenceTest.testValidateSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -199,10 +204,15 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/TournyWinner.java</url>
-          <line>22</line>
+          <line>23</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Arrays$ThreeNumberSumTest.ic" NAME="ThreeNumberSumTest Coverage Results" MODIFIED="1651541890765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>test.*</FILTER>
+    </SUITE>
   </component>
 </project>

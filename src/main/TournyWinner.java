@@ -16,6 +16,7 @@ public class TournyWinner {
 
         for (int index = 0; index < competitions.size(); index++){
             ArrayList<String> currentGame = competitions.get(index);
+
             int result = results.get(index);
 
             String homeTeam = currentGame.get(HOME_TEAM);
