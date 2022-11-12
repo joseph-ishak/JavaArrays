@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="Added MoveElementToEnd Algo">
-      <change afterPath="$PROJECT_DIR$/src/main/CalendarMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FirstDuplicateValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FourNumberSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/LargestRange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/MergeOverlappingIntervals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/MinRewards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/SubarraySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/LongestPeakTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/MoveElementToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MoveElementToEnd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FirstDuplicateValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FirstDuplicateValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FourNumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FourNumberSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/LargestRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LargestRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MergeOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MergeOverlappingIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MinRewards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MinRewards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SubarraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SubarraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/LongestPeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LongestPeakTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +60,8 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ZigzagTraverseTest.calculateNonConstructibleChangeTest">
-    <configuration name="FirstDuplicateValueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ZigzagTraverseTest">
+    <configuration name="ApartmentHuntingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +70,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.FirstDuplicateValueTest" />
+      <option name="MAIN_CLASS_NAME" value="test.ApartmentHuntingTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApartmentHuntingTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApartmentHuntingTest" />
+      <option name="METHOD_NAME" value="TestCase1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,22 +102,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.ZigZagTest" />
-      <option name="METHOD_NAME" value="calculateNonConstructibleChangeTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ZigZagTestt.calculateNonConstructibleChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ZigZagTestt" />
       <option name="METHOD_NAME" value="calculateNonConstructibleChangeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -143,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ZigzagTraverseTest.calculateNonConstructibleChangeTest" />
         <item itemvalue="JUnit.ZigzagTraverseTest" />
+        <item itemvalue="JUnit.ApartmentHuntingTest" />
+        <item itemvalue="JUnit.ApartmentHuntingTest.TestCase1" />
+        <item itemvalue="JUnit.ZigzagTraverseTest.calculateNonConstructibleChangeTest" />
         <item itemvalue="JUnit.ZigZagTest.calculateNonConstructibleChangeTest" />
-        <item itemvalue="JUnit.ZigZagTestt.calculateNonConstructibleChangeTest" />
-        <item itemvalue="JUnit.FirstDuplicateValueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -253,11 +251,6 @@
           <url>file://$PROJECT_DIR$/src/main/TournyWinner.java</url>
           <line>23</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/ZigzagTraverse.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
