@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="Added SmallesttDiff Algo">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e00fcb4f-9371-4f5a-95d7-b39772750002" name="Changes" comment="Added MoveElementToEnd Algo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FirstDuplicateValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FirstDuplicateValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/FourNumberSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/FourNumberSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/LargestRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/LargestRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MergeOverlappingIntervals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MergeOverlappingIntervals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MinRewards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/MinRewards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/SubarraySort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/SubarraySort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/LongestPeakTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/LongestPeakTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +35,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28DA1U2GXGrK2M5OlATAbQrjhMJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,8 +60,8 @@
       <recent name="test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoveElementToEndTest.TestCase1">
-    <configuration name="MoveElementToEndTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ZigzagTraverseTest">
+    <configuration name="ApartmentHuntingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -62,14 +70,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MoveElementToEndTest" />
+      <option name="MAIN_CLASS_NAME" value="test.ApartmentHuntingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApartmentHuntingTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ApartmentHuntingTest" />
       <option name="METHOD_NAME" value="TestCase1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZigZagTest.calculateNonConstructibleChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -78,44 +101,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.SmallestDifferenceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeNumberSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ThreeNumberSumTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreeNumberSumTest.TestCase1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Arrays" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.ThreeNumberSumTest" />
-      <option name="METHOD_NAME" value="TestCase1" />
+      <option name="MAIN_CLASS_NAME" value="test.ZigZagTest" />
+      <option name="METHOD_NAME" value="calculateNonConstructibleChangeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TournyWinnerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ZigzagTraverseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Arrays" />
       <extension name="coverage">
         <pattern>
@@ -124,19 +117,35 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.TournyWinnerTest" />
+      <option name="MAIN_CLASS_NAME" value="test.ZigzagTraverseTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZigzagTraverseTest.calculateNonConstructibleChangeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ZigzagTraverseTest" />
+      <option name="METHOD_NAME" value="calculateNonConstructibleChangeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoveElementToEndTest.TestCase1" />
-        <item itemvalue="JUnit.SmallestDifferenceTest" />
-        <item itemvalue="JUnit.ThreeNumberSumTest.TestCase1" />
-        <item itemvalue="JUnit.ThreeNumberSumTest" />
-        <item itemvalue="JUnit.TournyWinnerTest" />
+        <item itemvalue="JUnit.ZigzagTraverseTest" />
+        <item itemvalue="JUnit.ApartmentHuntingTest" />
+        <item itemvalue="JUnit.ApartmentHuntingTest.TestCase1" />
+        <item itemvalue="JUnit.ZigzagTraverseTest.calculateNonConstructibleChangeTest" />
+        <item itemvalue="JUnit.ZigZagTest.calculateNonConstructibleChangeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +207,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651542394147</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added MoveElementToEnd Algo">
+      <created>1651543745299</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651543745299</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added MoveElementToEnd Algo">
+      <created>1651543754480</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1651543754480</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +241,8 @@
     <MESSAGE value="updated Validate Sequence Code/Test" />
     <MESSAGE value="Added three Number Sum Algo" />
     <MESSAGE value="Added SmallesttDiff Algo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added SmallesttDiff Algo" />
+    <MESSAGE value="Added MoveElementToEnd Algo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added MoveElementToEnd Algo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -230,6 +254,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="zigzag" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Arrays$ThreeNumberSumTest.ic" NAME="ThreeNumberSumTest Coverage Results" MODIFIED="1651541890765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
